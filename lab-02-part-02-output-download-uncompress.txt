@@ -18,7 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+hello
 
 
 ==========
@@ -28,7 +28,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 ==========
@@ -39,7 +39,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+>
 
 ==========
 4. Uh-oh... we're stuck!
@@ -57,7 +57,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.  For example, > brings up a different prompt.  Try *.
@@ -67,19 +67,20 @@ $ echo *
 What happens?
 ----------
 
-
+Adlm Adobe Applications Desktop Documents Downloads Library MPLABXProjects Movies Music New Unity Project New Unity Project 1 Pictures Public QLData Scripting Intro Things drills.py foo garbage ipe.properties isus mtec1002 pymel.log stuff xgen
 
 ==========
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
 We're going to practice downloading files from a web site.  We'll use this practice to download more lab materials!
 ==========
+
 ==========
 8. Now let's try downloading a file from a web site.  Type in the URL *exactly* as is: google.com.
 
@@ -88,7 +89,12 @@ $ curl google.com
 Copy and paste the output below.
 ----------
 
-
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 ==========
 9. And again.  This time, add www to the URL.
@@ -98,7 +104,7 @@ $ curl www.google.com
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
 
-
+<TITLE>301 Moved</TITLE>
 
 ==========
 10. That's great, but what if I want to save the file?  What flag/option and option argument would I use to download the page to a file called google.html?  Run it to download the URL www.google.com.
