@@ -109,6 +109,7 @@ f. Remove that folder.
 g. Show all of the commands that you used to complete the above exercise.  (for example, how did you determine which folder in my-stuff was the most recent?).  Use the command: history ... to help you remember what you did!  Paste the commands below.
 ----------
 
+clear
 cd Desktop
 mkdir -p my-stuff/archived
 cd my-stuff
